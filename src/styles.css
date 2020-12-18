@@ -9,12 +9,14 @@ body {
   background-color: black;
 }
 .image {
-  max-width: 200px;
+  max-width: 250px;
+  max-height: 200px;
   padding: 1rem;
   border-radius: 1.5rem;
 }
 
 .name {
+  padding: 0.5rem 1rem;
   font-size: 1.5rem;
 }
 .description {
