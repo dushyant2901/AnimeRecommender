@@ -1,2 +1,2 @@
 # AnimeRecommender
-Created with CodeSandbox
+An anime recommendor app built with react
