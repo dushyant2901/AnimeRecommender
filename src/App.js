@@ -10,28 +10,35 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1 style={{ color: "yellow", textAlign: "center" }}>
+      <h1
+        style={{
+          color: "#39FF14",
+          border: "2px solid #39FF14 ",
+          textAlign: "center",
+          borderRadius: "1rem",
+          padding: "1rem",
+          margin: "0rem"
+        }}
+      >
         {" "}
         Anime Recommender{" "}
       </h1>
-      <p style={{ fontSize: "1rem", color: "yellow" }}>
-        {" "}
-        Select a genre to get recommendations{" "}
-      </p>
 
-      <div>
+      <div className="btn">
         {Object.keys(animeDB).map((genre) => (
           <button
             onClick={() => genreClickHandler(genre)}
             style={{
               cursor: "pointer",
-              background: "yellow",
+              background: "#39FF14",
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
               border: "1px solid black",
-              margin: "1rem 0.9rem",
+              margin: "1.25rem 1.25rem",
               fontSize: "1.05rem",
-              color: "black"
+              color: "black",
+
+              fontFamily: "'Raleway', sans-serif"
             }}
           >
             {genre}
@@ -47,10 +54,11 @@ export default function App() {
               style={{
                 listStyle: "none",
                 padding: "1rem",
-                border: "1px solid #D1D5DB",
+                border: "1px solid #39FF14",
                 width: "70%",
-                margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                margin: "1rem 2.5rem",
+                borderRadius: "0.5rem",
+                textAlign: "center"
               }}
             >
               {" "}
