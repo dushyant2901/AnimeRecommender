@@ -35,7 +35,7 @@ export default function App() {
               padding: "0.5rem  1rem",
               border: "1px solid black",
               margin: "1.25rem 1.25rem",
-              fontSize: "1.05rem",
+              fontSize: "1.1rem",
               color: "black",
 
               fontFamily: "'Raleway', sans-serif"
