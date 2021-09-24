@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:ital,wght@1,600&display=swap");
 .App {
   max-width: 600px;
@@ -11,8 +12,8 @@ body {
   background-color: black;
 }
 .image {
-  max-width: 350px;
-  max-height: 220px;
+  max-width: 150px;
+  height: 220px;
   padding: 0.5rem;
   border-radius: 1.5rem;
   border: 2px solid #39ff14;
@@ -34,4 +35,28 @@ body {
 }
 .btn {
   text-align: center;
+}
+.links{margin-top: 2rem;
+  border: 2px solid #39FF14 ;
+ 
+  border-radius: 1rem;
+  }
+.link{text-decoration: none;
+  box-sizing: border-box;
+padding: 0.5rem 1rem;
+margin: 0rem 0.3rem;
+color: #39ff14;
+
+}
+
+
+
+.list-unbulleted-list{
+ list-style: none;
+}
+.list-item-inline{
+  display: inline;
+  padding: 0rem 0.5rem;
+
+  
 }
